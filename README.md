@@ -7,6 +7,7 @@ Text generation is a subfield of natural language processing (NLP). It leverages
 In general:
 
 * We first **train** a Language Model (**LM**) with a corpus. LM learns the statistical distributions of the next token for a given token sequence from the corpus.
+[](Images/1_nvdbsbx5kENbiBXY19VByw.png)
 * In text generation, LM works in a loop:
 * We provide initial random text (seed) to LM.
 * LM predicts the next token.
