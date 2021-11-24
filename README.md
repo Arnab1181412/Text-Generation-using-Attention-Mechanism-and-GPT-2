@@ -62,7 +62,7 @@ and predicted sentence and we see that GPT2 is giving less mean Bleu Score
 this may be due to unavailability of enough data or tweaking few parameters while 
 fine - tuning might help.
 
-
+![](Images/Bleu_score.png)
 
 
 ## Deployment
