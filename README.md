@@ -58,7 +58,26 @@ In general:
 ### Testing our model
 Now, we take 100 samples from the document each of length 50 and predict
 the next 50 words we see calculate the Blue Score between the actual sentence
-and predicted sentence and we see that 
+and predicted sentence and we see that GPT2 is giving less mean Bleu Score
+this may be due to unavailability of enough data or tweaking few parameters while 
+fine - tuning might help.
+
+
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  pip install tensorflow
+```
+```bash
+  pip install gpt-2-simple
+```
+```bash
+  pip install keras
+```
 
 
 
